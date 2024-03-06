@@ -11,4 +11,4 @@ These scripts assume that the data is in BIDS format. They also assume that the 
 
 4.3dMVM_Stroop.csh runs afni's multivariate modeling statistics
 
-5.3dclusterize_ROIstats first applies cluster correction, then extracts participant/session/condition level beta values for each surviving cluster. Note: as no clusters survived for the main effect of time or the time by condition interaction, these steps were only run on the condition main effect (congruent vs. incongruent).
+5.3dclusterize_ROIstats.csh first applies cluster correction, then extracts participant/session/condition level beta values for each surviving cluster. Note: as no clusters survived for the main effect of time or the time by condition interaction, these steps were only run on the condition main effect (congruent vs. incongruent).
